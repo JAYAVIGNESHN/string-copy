@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str1[15],str2[15],str3[15];
+    printf("Enter str1:");
+    scanf("%s",str1);
+    printf("Enter str2:");
+    scanf("%s",str2);
+    strcpy(str3,str1);
+    printf("%s",str3);
+    return 0;
+}
+
+//Enter str1:eee
+Enter str2:mkce
+eee//
